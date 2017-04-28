@@ -14,6 +14,7 @@
 		0D6D80981EAF6EEF00B29D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6D80961EAF6EEF00B29D80 /* LaunchScreen.storyboard */; };
 		0D6D80A31EAF6EEF00B29D80 /* original_apriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D80A21EAF6EEF00B29D80 /* original_apriTests.swift */; };
 		0D6D80AE1EAF6EEF00B29D80 /* original_apriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D80AD1EAF6EEF00B29D80 /* original_apriUITests.swift */; };
+		0DA712B71EB3BBF6003116EC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA712B61EB3BBF6003116EC /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0D6D80A91EAF6EEF00B29D80 /* original apriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "original apriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6D80AD1EAF6EEF00B29D80 /* original_apriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = original_apriUITests.swift; sourceTree = "<group>"; };
 		0D6D80AF1EAF6EEF00B29D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA712B61EB3BBF6003116EC /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0D6D808D1EAF6EEF00B29D80 /* AppDelegate.swift */,
 				0D6D808F1EAF6EEF00B29D80 /* ViewController.swift */,
 				0D6D80911EAF6EEF00B29D80 /* Main.storyboard */,
+				0DA712B61EB3BBF6003116EC /* AddViewController.swift */,
 				0D6D80941EAF6EEF00B29D80 /* Assets.xcassets */,
 				0D6D80961EAF6EEF00B29D80 /* LaunchScreen.storyboard */,
 				0D6D80991EAF6EEF00B29D80 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				0D6D80901EAF6EEF00B29D80 /* ViewController.swift in Sources */,
 				0D6D808E1EAF6EEF00B29D80 /* AppDelegate.swift in Sources */,
+				0DA712B71EB3BBF6003116EC /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +516,7 @@
 				0D6D80B41EAF6EEF00B29D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D6D80B51EAF6EEF00B29D80 /* Build configuration list for PBXNativeTarget "original apriTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				0D6D80B71EAF6EEF00B29D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D6D80B81EAF6EEF00B29D80 /* Build configuration list for PBXNativeTarget "original apriUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				0D6D80BA1EAF6EEF00B29D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
