@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0D1731851EB9BA7E003E9F1E /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1731831EB9BA7E003E9F1E /* ListTableViewController.swift */; };
 		0D1731861EB9BA7E003E9F1E /* ListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1731841EB9BA7E003E9F1E /* ListTableViewController.xib */; };
+		0D1731891EB9EE98003E9F1E /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1731871EB9EE98003E9F1E /* ListTableViewCell.swift */; };
+		0D17318A1EB9EE98003E9F1E /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1731881EB9EE98003E9F1E /* ListTableViewCell.xib */; };
 		0D6D808E1EAF6EEF00B29D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D808D1EAF6EEF00B29D80 /* AppDelegate.swift */; };
 		0D6D80901EAF6EEF00B29D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D808F1EAF6EEF00B29D80 /* ViewController.swift */; };
 		0D6D80931EAF6EEF00B29D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6D80911EAF6EEF00B29D80 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 		0428CD9788DEEFF56510AA81 /* Pods_original_apriTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_original_apriTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1731831EB9BA7E003E9F1E /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		0D1731841EB9BA7E003E9F1E /* ListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewController.xib; sourceTree = "<group>"; };
+		0D1731871EB9EE98003E9F1E /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		0D1731881EB9EE98003E9F1E /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		0D6D808A1EAF6EEF00B29D80 /* original apri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "original apri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6D808D1EAF6EEF00B29D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D6D808F1EAF6EEF00B29D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 				0D6D80911EAF6EEF00B29D80 /* Main.storyboard */,
 				0D1731831EB9BA7E003E9F1E /* ListTableViewController.swift */,
 				0D1731841EB9BA7E003E9F1E /* ListTableViewController.xib */,
+				0D1731871EB9EE98003E9F1E /* ListTableViewCell.swift */,
+				0D1731881EB9EE98003E9F1E /* ListTableViewCell.xib */,
 				0DA712B61EB3BBF6003116EC /* AddViewController.swift */,
 				0D6D80941EAF6EEF00B29D80 /* Assets.xcassets */,
 				0D6D80961EAF6EEF00B29D80 /* LaunchScreen.storyboard */,
@@ -297,6 +303,7 @@
 				0D6D80951EAF6EEF00B29D80 /* Assets.xcassets in Resources */,
 				0D6D80931EAF6EEF00B29D80 /* Main.storyboard in Resources */,
 				0D1731861EB9BA7E003E9F1E /* ListTableViewController.xib in Resources */,
+				0D17318A1EB9EE98003E9F1E /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +470,7 @@
 				0D6D808E1EAF6EEF00B29D80 /* AppDelegate.swift in Sources */,
 				0DA712B71EB3BBF6003116EC /* AddViewController.swift in Sources */,
 				0D1731851EB9BA7E003E9F1E /* ListTableViewController.swift in Sources */,
+				0D1731891EB9EE98003E9F1E /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
