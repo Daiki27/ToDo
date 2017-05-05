@@ -9,6 +9,12 @@
 import UIKit
 import RealmSwift
 
+// データを保存するのか更新するのか
+enum RLMSaveMode {
+    case Create
+    case Update
+}
+
 class AddViewController: UIViewController {
     
     let realm = try! Realm()
@@ -21,7 +27,7 @@ class AddViewController: UIViewController {
     
     @IBOutlet var categoryTextField: UITextField! // ToDoのカテゴリーを決めるためのUITextField
     
-    //@IBOutlet var gestureRecognizer: UITapGestureRecognizer! // 画面を触った時にキーボードを下げる
+    @IBOutlet var gestureRecognizer: UITapGestureRecognizer! // 画面を触った時にキーボードを下げる
     
     //変数の宣言
     
