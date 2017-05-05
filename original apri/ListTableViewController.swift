@@ -36,6 +36,11 @@ class ListTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
+    
+    @IBAction func next(){
+        self.performSegue(withIdentifier: "next", sender: nil)
+    }
+
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

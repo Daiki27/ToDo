@@ -35,12 +35,12 @@
                     <navigationItem key="navigationItem" title="一覧" id="7na-Oq-Pdo">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="lmS-1y-iWd">
                             <connections>
-                                <action selector="add:" destination="DZm-qU-4Me" id="BnR-bO-fMO"/>
+                                <action selector="next" destination="DZm-qU-4Me" id="MLy-Tl-Zrf"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="wMD-bD-CX0" kind="show" identifier="add" id="fzh-xN-1WP"/>
+                        <segue destination="wMD-bD-CX0" kind="show" identifier="next" id="fzh-xN-1WP"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JtF-Ug-tJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
